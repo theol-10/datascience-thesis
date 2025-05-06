@@ -22,19 +22,18 @@ if response.status_code == 200:
         "timestamp": datetime.now().isoformat()
     } for road in data])
 
-    # ✅ Build absolute path to data folder outside scripts/
+    # Building absolute path to data folder outside scripts/.
     script_dir = os.path.dirname(os.path.abspath(__file__))
     project_root = os.path.abspath(os.path.join(script_dir, ".."))
     data_dir = os.path.join(project_root, "data")
     os.makedirs(data_dir, exist_ok=True)
 
-    # ✅ Final CSV path
     file_path = os.path.join(data_dir, "tfl_road_status.csv")
 
-    # ✅ Save to CSV (safely appending)
+    # Save to CSV
     df.to_csv(file_path, index=False, mode='a', header=not os.path.exists(file_path))
 
-    print("✅ Data saved to:", file_path)
+    print("Data saved to:", file_path)
 else:
-    print("❌ Error:", response.status_code)
+    print("Error:", response.status_code)
     print(response.text)

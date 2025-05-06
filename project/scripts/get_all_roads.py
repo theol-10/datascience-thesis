@@ -12,7 +12,7 @@ if response.status_code == 200:
     data = response.json()
     road_ids = [road["id"] for road in data]
 
-    # Save to ../data/
+    # Saving to ../data/
     project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
     data_dir = os.path.join(project_root, "data")
     os.makedirs(data_dir, exist_ok=True)
@@ -21,7 +21,7 @@ if response.status_code == 200:
     with open(save_path, "w") as f:
         json.dump(road_ids, f)
 
-    print(f"✅ Saved {len(road_ids)} road IDs to {save_path}")
+    print(f"saved {len(road_ids)} road IDs to {save_path}")
 else:
-    print("❌ Failed to fetch road list:", response.status_code)
+    print("failed to fetch road list:", response.status_code)
     print(response.text)

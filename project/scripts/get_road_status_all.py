@@ -6,19 +6,19 @@ from datetime import datetime
 
 APP_KEY = "045e9ab8f6164cb8bc07cd27bcff2109"
 
-# Load road list
+# Loading road list
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 data_dir = os.path.join(project_root, "data")
 with open(os.path.join(data_dir, "available_roads.json")) as f:
     roads = json.load(f)
 
-# TfL may have too many roads for one request — split into chunks
+# there may have too many roads for one request so splitting into chunks
 def chunk(lst, size):
     for i in range(0, len(lst), size):
         yield lst[i:i + size]
 
 records = []
-for road_chunk in chunk(roads, 30):  # 30 at a time to be safe
+for road_chunk in chunk(roads, 30):  # 30 at a time first testing
     url = f"https://api.tfl.gov.uk/Road/{','.join(road_chunk)}"
     params = {"app_key": APP_KEY}
     response = requests.get(url, params=params)
@@ -34,13 +34,13 @@ for road_chunk in chunk(roads, 30):  # 30 at a time to be safe
                 "timestamp": timestamp
             })
     else:
-        print("❌ Error for chunk:", response.status_code)
+        print("Error for chunk:", response.status_code)
         print(response.text)
 
-# Save results
+# Saving results
 df = pd.DataFrame(records)
 os.makedirs(data_dir, exist_ok=True)
 file_path = os.path.join(data_dir, "tfl_road_status.csv")
 df.to_csv(file_path, index=False, mode='a', header=not os.path.exists(file_path))
 
-print(f"✅ Saved {len(df)} records to {file_path}")
+print(f"Saved {len(df)} records to {file_path}")
