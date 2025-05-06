@@ -1,0 +1,53 @@
+road,status,description,timestamp,hour,weekday,day_of_week,is_weekend,is_rush_hour,severity_level
+A13,Good,No Exceptional Delays,2025-05-05 14:55:27.111477,14,Monday,0,0,0,0.0
+A2,Good,No Exceptional Delays,2025-05-05 14:55:27.111484,14,Monday,0,0,0,0.0
+North Circular (A406),Good,No Exceptional Delays,2025-05-05 14:55:27.111486,14,Monday,0,0,0,0.0
+A13,Good,No Exceptional Delays,2025-05-05 15:07:28.693118,15,Monday,0,0,0,0.0
+A2,Good,No Exceptional Delays,2025-05-05 15:07:28.693127,15,Monday,0,0,0,0.0
+North Circular (A406),Good,No Exceptional Delays,2025-05-05 15:07:28.693130,15,Monday,0,0,0,0.0
+A1,Good,No Exceptional Delays,2025-05-05 15:16:52.725053,15,Monday,0,0,0,0.0
+A10,Good,No Exceptional Delays,2025-05-05 15:16:52.725053,15,Monday,0,0,0,0.0
+A12,Good,No Exceptional Delays,2025-05-05 15:16:52.725053,15,Monday,0,0,0,0.0
+A13,Good,No Exceptional Delays,2025-05-05 15:16:52.725053,15,Monday,0,0,0,0.0
+A2,Good,No Exceptional Delays,2025-05-05 15:16:52.725053,15,Monday,0,0,0,0.0
+A20,Good,No Exceptional Delays,2025-05-05 15:16:52.725053,15,Monday,0,0,0,0.0
+South Circular (A205),Good,No Exceptional Delays,2025-05-05 15:16:52.725053,15,Monday,0,0,0,0.0
+A21,Good,No Exceptional Delays,2025-05-05 15:16:52.725053,15,Monday,0,0,0,0.0
+A23,Good,No Exceptional Delays,2025-05-05 15:16:52.725053,15,Monday,0,0,0,0.0
+A24,Good,No Exceptional Delays,2025-05-05 15:16:52.725053,15,Monday,0,0,0,0.0
+A3,Serious,Serious Delays,2025-05-05 15:16:52.725053,15,Monday,0,0,0,
+A316,Good,No Exceptional Delays,2025-05-05 15:16:52.725053,15,Monday,0,0,0,0.0
+A4,Good,No Exceptional Delays,2025-05-05 15:16:52.725053,15,Monday,0,0,0,0.0
+A40,Serious,Serious Delays,2025-05-05 15:16:52.725053,15,Monday,0,0,0,
+North Circular (A406),Good,No Exceptional Delays,2025-05-05 15:16:52.725053,15,Monday,0,0,0,0.0
+A41,Good,No Exceptional Delays,2025-05-05 15:16:52.725053,15,Monday,0,0,0,0.0
+Bishopsgate Cross Route,Good,No Exceptional Delays,2025-05-05 15:16:52.725053,15,Monday,0,0,0,0.0
+Blackwall Tunnel,Good,No Exceptional Delays,2025-05-05 15:16:52.725053,15,Monday,0,0,0,0.0
+City Route,Good,No Exceptional Delays,2025-05-05 15:16:52.725053,15,Monday,0,0,0,0.0
+Farringdon Cross Route,Good,No Exceptional Delays,2025-05-05 15:16:52.725053,15,Monday,0,0,0,0.0
+Inner Ring,Good,No Exceptional Delays,2025-05-05 15:16:52.725053,15,Monday,0,0,0,0.0
+Southern River Route,Good,No Exceptional Delays,2025-05-05 15:16:52.725053,15,Monday,0,0,0,0.0
+Western Cross Route,Good,No Exceptional Delays,2025-05-05 15:16:52.725053,15,Monday,0,0,0,0.0
+A1,Good,No Exceptional Delays,2025-05-06 19:26:16.763979,19,Tuesday,1,0,0,0.0
+A10,Good,No Exceptional Delays,2025-05-06 19:26:16.763979,19,Tuesday,1,0,0,0.0
+A12,Good,No Exceptional Delays,2025-05-06 19:26:16.763979,19,Tuesday,1,0,0,0.0
+A13,Serious,Serious Delays,2025-05-06 19:26:16.763979,19,Tuesday,1,0,0,
+A2,Good,No Exceptional Delays,2025-05-06 19:26:16.763979,19,Tuesday,1,0,0,0.0
+A20,Good,No Exceptional Delays,2025-05-06 19:26:16.763979,19,Tuesday,1,0,0,0.0
+South Circular (A205),Good,No Exceptional Delays,2025-05-06 19:26:16.763979,19,Tuesday,1,0,0,0.0
+A21,Good,No Exceptional Delays,2025-05-06 19:26:16.763979,19,Tuesday,1,0,0,0.0
+A23,Good,No Exceptional Delays,2025-05-06 19:26:16.763979,19,Tuesday,1,0,0,0.0
+A24,Good,No Exceptional Delays,2025-05-06 19:26:16.763979,19,Tuesday,1,0,0,0.0
+A3,Good,No Exceptional Delays,2025-05-06 19:26:16.763979,19,Tuesday,1,0,0,0.0
+A316,Good,No Exceptional Delays,2025-05-06 19:26:16.763979,19,Tuesday,1,0,0,0.0
+A4,Good,No Exceptional Delays,2025-05-06 19:26:16.763979,19,Tuesday,1,0,0,0.0
+A40,Good,No Exceptional Delays,2025-05-06 19:26:16.763979,19,Tuesday,1,0,0,0.0
+North Circular (A406),Serious,Serious Delays,2025-05-06 19:26:16.763979,19,Tuesday,1,0,0,
+A41,Good,No Exceptional Delays,2025-05-06 19:26:16.763979,19,Tuesday,1,0,0,0.0
+Bishopsgate Cross Route,Good,No Exceptional Delays,2025-05-06 19:26:16.763979,19,Tuesday,1,0,0,0.0
+Blackwall Tunnel,Good,No Exceptional Delays,2025-05-06 19:26:16.763979,19,Tuesday,1,0,0,0.0
+City Route,Serious,Serious Delays,2025-05-06 19:26:16.763979,19,Tuesday,1,0,0,
+Farringdon Cross Route,Good,No Exceptional Delays,2025-05-06 19:26:16.763979,19,Tuesday,1,0,0,0.0
+Inner Ring,Serious,Serious Delays,2025-05-06 19:26:16.763979,19,Tuesday,1,0,0,
+Southern River Route,Good,No Exceptional Delays,2025-05-06 19:26:16.763979,19,Tuesday,1,0,0,0.0
+Western Cross Route,Good,No Exceptional Delays,2025-05-06 19:26:16.763979,19,Tuesday,1,0,0,0.0
