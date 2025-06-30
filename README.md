@@ -24,7 +24,6 @@ The goal of this work is to develop a robust model for traffic severity predicti
 - **Hybrid Machine Learning Approach**: Integrating statistical baseline models with machine learning techniques.
 - **Class Imbalance Handling**: Special focus on improving minority class recall and model fairness.
 - **Model Interpretability**: SHAP analysis for transparent decision-making.
-- **Real-time Application**: Designed for urban traffic forecasting with flexible data integration from APIs.
 
 ## Repository Contents
 
