@@ -1,6 +1,8 @@
-# Traffic Severity Forecasting Using Machine Learning
+# Forecasting Urban Traffic Patterns in London Using Hybrid AI Techniques
 
-This repository contains the code for forecasting traffic severity levels in urban environments using machine learning models. The project focuses on predicting traffic severity levels (Good, Minor, Serious) in London, using data from Transport for London (TfL) and weather data from Open-Meteo. The models implemented in this repository aim to enhance the accuracy of traffic forecasting by integrating recent historical traffic patterns with engineered features such as time, weather, and contextual indicators.
+This repository contains the code for the Master's thesis project in Data Science at the University of Barcelona, focused on forecasting traffic severity levels in urban environments using machine learning techniques.
+
+The project focuses on predicting traffic severity levels (Good, Minor, Serious) in London, using data from Transport for London (TfL) and weather data from Open-Meteo. The models implemented in this repository aim to enhance the accuracy of traffic forecasting by integrating recent historical traffic patterns with engineered features such as time, weather, and contextual indicators.
 
 The objective of this work is to combine traditional statistical models with advanced machine learning techniques, such as Random Forests and XGBoost, to build a predictive system that can effectively handle class imbalance, model temporal dependencies, and improve minority class recall. Interpretability has also been a key consideration, with SHAP analysis incorporated to provide insights into model behavior and feature importance.
 
@@ -59,13 +61,6 @@ The goal of this work is to develop a robust model for traffic severity predicti
 
     Open the desired notebook from the `notebooks/` folder.
 
-## Contributions
-
-Any contributions, improvements, or ideas to further develop the work in this repository are welcome. Please feel free to fork the repository, create a pull request, or open an issue.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
@@ -73,5 +68,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Special thanks to my supervisor for providing guidance and feedback throughout the project.
 
 ---
-
-Feel free to adapt the sections to reflect your specific work, data sources, and any other details you want to highlight in your GitHub repository!
